@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbcf83c46b95de345bd5c762b2baa6c3, type: 3}
+  m_Name: SpeechSets_Default
+  m_EditorClassIdentifier: 
+  sets:
+  - avatar: {fileID: 154172673162939090, guid: 749b7be41f085a34488fb5bbbd74db6e, type: 3}
+    name: Aqua
+    numberOfLines: 1
+  - avatar: {fileID: 154172673162939090, guid: c57a34dd0f8b68d4e8617d2a93c3fdc8, type: 3}
+    name: Ayame
+    numberOfLines: 1
+  - avatar: {fileID: 154172673162939090, guid: 396dba455c2cf544cba012890e153270, type: 3}
+    name: Choco
+    numberOfLines: 1
+  - avatar: {fileID: 154172673162939090, guid: ef3056206e86fe64b8632a24311e3ae4, type: 3}
+    name: Coco
+    numberOfLines: 2
+  - avatar: {fileID: 154172673162939090, guid: 1db619e25b1fe0449b46196a9c486894, type: 3}
+    name: Flare
+    numberOfLines: 1
+  - avatar: {fileID: 154172673162939090, guid: eca238a4b12283b4bbb714b36a3e68fa, type: 3}
+    name: Fubuki
+    numberOfLines: 2
+  - avatar: {fileID: 154172673162939090, guid: 9bcbef1abac4be145a72a16e4fdb4548, type: 3}
+    name: Kanata
+    numberOfLines: 2
+  - avatar: {fileID: 154172673162939090, guid: 727ed014e57cc82469a3fee55f5b07bf, type: 3}
+    name: Korone
+    numberOfLines: 2
+  - avatar: {fileID: 154172673162939090, guid: c3ae98f0c61d3e04ba1fdd732fff3b04, type: 3}
+    name: Marine
+    numberOfLines: 1
+  - avatar: {fileID: 154172673162939090, guid: 3f3603b8289b897488db56f69c8fb88a, type: 3}
+    name: Matsuri
+    numberOfLines: 1
+  - avatar: {fileID: 154172673162939090, guid: 60c1bedf996288440a011d7d39463d29, type: 3}
+    name: Miko
+    numberOfLines: 1
+  - avatar: {fileID: 154172673162939090, guid: fe0d1eb59e2723b40a24746303972f65, type: 3}
+    name: Mio
+    numberOfLines: 1
+  - avatar: {fileID: 154172673162939090, guid: 8cb0342aab1a8694d8aeee6771a9733d, type: 3}
+    name: Noel
+    numberOfLines: 1
+  - avatar: {fileID: 154172673162939090, guid: 2eb63c2b6a0657a4daf970e06d94c4ea, type: 3}
+    name: Okayu
+    numberOfLines: 1
+  - avatar: {fileID: 154172673162939090, guid: 8e9f210e5390c554d9afd14593511a7b, type: 3}
+    name: Pekora
+    numberOfLines: 2
+  - avatar: {fileID: 154172673162939090, guid: d43b224a316e69d4fa350877b5d3b9ff, type: 3}
+    name: Rushia
+    numberOfLines: 2
+  - avatar: {fileID: 154172673162939090, guid: 8d2642ee46cbcc2489f5184f450e3643, type: 3}
+    name: Subaru
+    numberOfLines: 1

@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8333684762588534031
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4158918105842790676}
+  - component: {fileID: 3913384584169201120}
+  m_Layer: 0
+  m_Name: Character_JP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4158918105842790676
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8333684762588534031}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3913384584169201120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8333684762588534031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086ae75064fca9f46b315403da7f5d20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Source: {fileID: 4900000, guid: 102915bd0183fbc418695195f4cc713d, type: 3}
+  Language: Japanese
+  Separator: ' = '
+  NewLine: \n
+  Comment: ' // '
+  Cache: 0
+  entries:
+  - Name: Character/Sora
+    Text: "\u305D\u3089"
+  - Name: Character/TokinoSora
+    Text: "\u3068\u304D\u306E\u305D\u3089"
+  - Name: Character/YuujinA
+    Text: "\u53CB\u4EBAA"
+  - Name: Character/AChan
+    Text: "\u3048\u30FC\u3061\u3083\u3093"
+  - Name: Character/Roboco
+    Text: "\u30ED\u30DC\u5B50\u3055\u3093"
+  - Name: Character/Miko
+    Text: "\u307F\u3053"
+  - Name: Character/SakuraMiko
+    Text: "\u3055\u304F\u3089\u307F\u3053"
+  - Name: Character/Suisei
+    Text: "\u3059\u3044\u305B\u3044"
+  - Name: Character/HoshimachiSuisei
+    Text: "\u661F\u8857\u3059\u3044\u305B\u3044"
+  - Name: Character/Haato
+    Text: "\u306F\u3042\u3068"
+  - Name: Character/AkaiHaato
+    Text: "\u8D64\u4E95\u306F\u3042\u3068"
+  - Name: Character/Mel
+    Text: "\u30E1\u30EB"
+  - Name: Character/YozoraMel
+    Text: "\u591C\u7A7A\u30E1\u30EB"
+  - Name: Character/Matsuri
+    Text: "\u307E\u3064\u308A"
+  - Name: Character/NatsuiroMatsuri
+    Text: "\u590F\u8272\u307E\u3064\u308A"
+  - Name: Character/Aki
+    Text: "\u30A2\u30AD"
+  - Name: Character/AkiRosenthal
+    Text: "\u30A2\u30AD\u30FB\u30ED\u30FC\u30BC\u30F3\u30BF\u30FC\u30EB"
+  - Name: Character/Fubuki
+    Text: "\u30D5\u30D6\u30AD"
+  - Name: Character/ShirakamiFubuki
+    Text: "\u767D\u4E0A\u30D5\u30D6\u30AD"
+  - Name: Character/Subaru
+    Text: "\u30B9\u30D0\u30EB"
+  - Name: Character/OozoraSubaru
+    Text: "\u5927\u7A7A\u30B9\u30D0\u30EB"
+  - Name: Character/Choco
+    Text: "\u3061\u3087\u3053"
+  - Name: Character/YuzukiChoco
+    Text: "\u7652\u6708\u3061\u3087\u3053"
+  - Name: Character/Shion
+    Text: "\u30B7\u30AA\u30F3"
+  - Name: Character/MurasakiShion
+    Text: "\u7D2B\u54B2\u30B7\u30AA\u30F3"
+  - Name: Character/Ayame
+    Text: "\u3042\u3084\u3081"
+  - Name: Character/NakiriAyame
+    Text: "\u767E\u9B3C\u3042\u3084\u3081"
+  - Name: Character/Aqua
+    Text: "\u3042\u304F\u3042"
+  - Name: Character/MinatoAqua
+    Text: "\u6E4A\u3042\u304F\u3042"
+  - Name: Character/Mio
+    Text: "\u30DF\u30AA"
+  - Name: Character/OokamiMio
+    Text: "\u5927\u795E\u30DF\u30AA"
+  - Name: Character/Okayu
+    Text: "\u304A\u304B\u3086"
+  - Name: Character/NekomataOkayu
+    Text: "\u732B\u53C8\u304A\u304B\u3086"
+  - Name: Character/Korone
+    Text: "\u3053\u308D\u306D"
+  - Name: Character/InugamiKorone
+    Text: "\u620C\u795E\u3053\u308D\u306D"
+  - Name: Character/Pekora
+    Text: "\u307A\u3053\u3089"
+  - Name: Character/UsadaPekora
+    Text: "\u514E\u7530\u307A\u3053\u3089"
+  - Name: Character/Rushia
+    Text: "\u308B\u3057\u3042"
+  - Name: Character/UruhaRushia
+    Text: "\u6F64\u7FBD\u308B\u3057\u3042"
+  - Name: Character/Flare
+    Text: "\u30D5\u30EC\u30A2"
+  - Name: Character/ShiranuiFlare
+    Text: "\u4E0D\u77E5\u706B\u30D5\u30EC\u30A2"
+  - Name: Character/Noel
+    Text: "\u30CE\u30A8\u30EB"
+  - Name: Character/ShiroganeNoel
+    Text: "\u767D\u9280\u30CE\u30A8\u30EB"
+  - Name: Character/Marine
+    Text: "\u30DE\u30EA\u30F3"
+  - Name: Character/HoushouMarine
+    Text: "\u5B9D\u9418\u30DE\u30EA\u30F3"
+  - Name: Character/Watame
+    Text: "\u308F\u305F\u3081"
+  - Name: Character/TsunomakiWatame
+    Text: "\u89D2\u5DFB\u308F\u305F\u3081"
+  - Name: Character/Towa
+    Text: "\u30C8\u30EF"
+  - Name: Character/TokoyamiTowa
+    Text: "\u5E38\u95C7\u30C8\u30EF"
+  - Name: Character/Coco
+    Text: "\u30B3\u30B3"
+  - Name: Character/KiryuCoco
+    Text: "\u6850\u751F\u30B3\u30B3"
+  - Name: Character/Kanata
+    Text: "\u304B\u306A\u305F"
+  - Name: Character/AmaneKanata
+    Text: "\u5929\u97F3\u304B\u306A\u305F"
+  - Name: Character/Luna
+    Text: "\u30EB\u30FC\u30CA"
+  - Name: Character/HimemoriLuna
+    Text: "\u59EB\u68EE\u30EB\u30FC\u30CA"
+  - Name: Character/AZKi
+    Text: AZKi
+  - Name: Character/YAGOO
+    Text: YAGOO
+  - Name: Character/Lamy
+    Text: "\u30E9\u30DF\u30A3"
+  - Name: Character/YukihanaLamy
+    Text: "\u96EA\u82B1\u30E9\u30DF\u30A3"
+  - Name: Character/Nene
+    Text: "\u306D\u306D"
+  - Name: Character/MomosuzuNene
+    Text: "\u6843\u9234\u306D\u306D"
+  - Name: Character/Botan
+    Text: "\u307C\u305F\u3093"
+  - Name: Character/ShishiroBotan
+    Text: "\u7345\u767D\u307C\u305F\u3093"
+  - Name: Character/Polka
+    Text: "\u30DD\u30EB\u30AB"
+  - Name: Character/OmaruPolka
+    Text: "\u5C3E\u4E38\u30DD\u30EB\u30AB"
+  - Name: Character/Calliope
+    Text: "\u7F8E\u58F0"
+  - Name: Character/Calli
+    Text: "\u30AB\u30EA"
+  - Name: Character/MoriCalliope
+    Text: "\u68EE\u7F8E\u58F0"
+  - Name: Character/Kiara
+    Text: "\u30AD\u30A2\u30E9"
+  - Name: Character/TakanashiKiara
+    Text: "\u5C0F\u9CE5\u904A\u30AD\u30A2\u30E9"
+  - Name: Character/Inanis
+    Text: "\u4F0A\u90A3\u5C13\u6816"
+  - Name: Character/Ina
+    Text: "\u3044\u306A"
+  - Name: Character/NinomaeInanis
+    Text: "\u4E00\u4F0A\u90A3\u5C13\u6816"
+  - Name: Character/Gura
+    Text: "\u3050\u3089"
+  - Name: Character/GawrGura
+    Text: "\u304C\u3046\u308B\u30FB\u3050\u3089"
+  - Name: Character/Amelia
+    Text: "\u30A2\u30E1\u30EA\u30A2"
+  - Name: Character/WatsonAmelia
+    Text: "\u30EF\u30C8\u30BD\u30F3\u30FB\u30A2\u30E1\u30EA\u30A2"
+  - Name: Character/Risu
+    Text: "\u30EA\u30B9"
+  - Name: Character/AyundaRisu
+    Text: "\u30A2\u30E6\u30F3\u30C0\u30FB\u30EA\u30B9"
+  - Name: Character/Moona
+    Text: "\u30E0\u30FC\u30CA"
+  - Name: Character/MoonaHoshinova
+    Text: "\u30E0\u30FC\u30CA\u30FB\u30DB\u30B7\u30CE\u30F4\u30A1"
+  - Name: Character/Iofifteen
+    Text: "\u30A4\u30AA\u30D5\u30A3\u30D5\u30C6\u30A3\u30FC\u30F3"
+  - Name: Character/Iofi
+    Text: "\u30A4\u30AA\u30D5\u30A3"
+  - Name: Character/AiraniIofifteen
+    Text: "\u30A2\u30A4\u30E9\u30CB\u30FB\u30A4\u30AA\u30D5\u30A3\u30D5\u30C6\u30A3\u30FC\u30F3"

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46eed6f2f95a5654aafdc317922702b4, type: 3}
+  m_Name: MicrogamePoolTest
+  m_EditorClassIdentifier: 
+  pool:
+  - microgame: {fileID: 331250826226987631, guid: 1f489a0e5432b954a82ccb56c3b33db9,
+      type: 3}
+    hardMicrogame: {fileID: 331250826226987631, guid: a287f7a62ed347549a690a502da59e3d,
+      type: 3}
+    type: 12

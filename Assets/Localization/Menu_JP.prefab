@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5259110653537665016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5259110653537665023}
+  - component: {fileID: 5259110653537665022}
+  m_Layer: 0
+  m_Name: Menu_JP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5259110653537665023
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5259110653537665016}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5259110653537665022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5259110653537665016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086ae75064fca9f46b315403da7f5d20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Source: {fileID: 4900000, guid: 201443c1c30696d4fadaa33a47ee86d5, type: 3}
+  Language: Japanese
+  Separator: ' = '
+  NewLine: \n
+  Comment: ' // '
+  Cache: 0
+  entries:
+  - Name: Play
+    Text: "\u30D7\u30EC\u30A4"
+  - Name: Settings
+    Text: "\u30AA\u30D7\u30B7\u30E7\u30F3"
+  - Name: Themes
+    Text: "\u30C6\u30FC\u30DE"
+  - Name: Credits
+    Text: "\u30AF\u30EC\u30B8\u30C3\u30C8"
+  - Name: Quit
+    Text: "\u7D42\u4E86"
+  - Name: BackToMainMenu
+    Text: "\u30E1\u30A4\u30F3\u30E1\u30CB\u30E5\u30FC\u306B\u623B\u308B"
+  - Name: SFXVolume
+    Text: "SFX\u306E\u97F3\u91CF"
+  - Name: BGMVolume
+    Text: "BGM\u306E\u97F3\u91CF"
+  - Name: FullScreen
+    Text: "\u5168\u753B\u9762"
+  - Name: ResetToDefaults
+    Text: "\u30EA\u30BB\u30C3\u30C8"
+  - Name: GameOver
+    Text: "\u30B2\u30FC\u30E0\u30AA\u30FC\u30D0\u30FC..."
+  - Name: Score
+    Text: "\u30B9\u30B3\u30A2"
+  - Name: HighScore
+    Text: "\u30CF\u30A4\u30B9\u30B3\u30A2"
+  - Name: SpeedUp
+    Text: "\u30B9\u30D4\u30FC\u30C9\u30A2\u30C3\u30D7!"
+  - Name: Boss
+    Text: "\u30DC\u30B9!!"
+  - Name: HardMode
+    Text: "\u30CF\u30FC\u30C9\u30E2\u30FC\u30C9"
+  - Name: NormalMode
+    Text: "\u30CE\u30FC\u30DE\u30EB\u30E2\u30FC\u30C9"
+  - Name: Use
+    Text: "\u4F7F\u7528\u3059\u308B"
+  - Name: InUse
+    Text: "\u4F7F\u7528\u4E2D"
+  - Name: Training
+    Text: "\u30C8\u30EC\u30FC\u30CB\u30F3\u30B0"

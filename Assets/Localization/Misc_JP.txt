@@ -1,0 +1,13 @@
+﻿Misc/Birthday = 誕生日
+Misc/Height = 身長
+Misc/Other = 他
+Misc/Hololive = ホロライブ
+Misc/HololiveGen1 = ホロライブ1期生
+Misc/HololiveGen2 = ホロライブ2期生
+Misc/HololiveGen3 = ホロライブ3期生
+Misc/HololiveGen4 = ホロライブ4期生
+Misc/HololiveGamers = ホロライブゲーマーズ
+Misc/InnkMusic = イノナカミュージック
+Misc/HololiveGen5 = ホロライブ5期生
+Misc/HololiveEN = ホロライブEN1期生
+Misc/HololiveID = ホロライブID

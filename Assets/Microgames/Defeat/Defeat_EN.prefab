@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &724455328247497853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 724455328247497854}
+  - component: {fileID: 724455328247497855}
+  m_Layer: 0
+  m_Name: Defeat_EN
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &724455328247497854
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724455328247497853}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &724455328247497855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724455328247497853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086ae75064fca9f46b315403da7f5d20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Source: {fileID: 4900000, guid: f1a5ead9ac6f7c14b999912470d4d9d7, type: 3}
+  Language: English
+  Separator: ' = '
+  NewLine: \n
+  Comment: ' // '
+  Cache: 0
+  entries:
+  - Name: Defeat/Attack
+    Text: Attack
+  - Name: Defeat/Ability
+    Text: Ability
+  - Name: Defeat/Cancel
+    Text: Cancel
+  - Name: Defeat/ATK
+    Text: ATK
+  - Name: Defeat/DEF
+    Text: DEF
+  - Name: Defeat/Win
+    Text: YOU WIN!
+  - Name: Defeat/Lose
+    Text: YOU LOSE...
+  - Name: Defeat/Fubuking
+    Text: Fubuking
+  - Name: Defeat/WhiteFang
+    Text: White Fang
+  - Name: Defeat/IcicleFall
+    Text: Icicle Fall
+  - Name: Defeat/WhiteoutBlizzard
+    Text: Whiteout Blizzard
+  - Name: Defeat/FoxyWiles
+    Text: Foxy Wiles
+  - Name: Defeat/Fireball
+    Text: Fireball
+  - Name: Defeat/Fireball_Desc
+    Text: Big damage to foe
+  - Name: Defeat/OmegaFlare
+    Text: Omega Flare
+  - Name: Defeat/OmegaFlare_Desc
+    Text: "Massive damage and DEF\u2193 to foe"
+  - Name: Defeat/HeaveHo
+    Text: Yousoro!
+  - Name: Defeat/HeaveHo_Desc
+    Text: Restore 25 MP to an ally
+  - Name: Defeat/Ahoy
+    Text: Ahoy!
+  - Name: Defeat/Ahoy_Desc
+    Text: "Grant ATK\u2191 to an ally"
+  - Name: Defeat/Trapeko
+    Text: Trapeko
+  - Name: Defeat/Trapeko_Desc
+    Text: "Inflict ATK\u2193 on foe"
+  - Name: Defeat/Surpekorise
+    Text: Surpekorise!
+  - Name: Defeat/Surpekorise_Desc
+    Text: Delay foe's next action
+  - Name: Defeat/Shield
+    Text: Shield
+  - Name: Defeat/Shield_Desc
+    Text: Foe's next attack targets Noel
+  - Name: Defeat/SilverBarrier
+    Text: Silver Barrier
+  - Name: Defeat/SilverBarrier_Desc
+    Text: Foe's next attack damage is halved
+  - Name: Defeat/Heal
+    Text: Heal
+  - Name: Defeat/Heal_Desc
+    Text: Restore 25 HP to party
+  - Name: Defeat/Resurrection
+    Text: Resurrection
+  - Name: Defeat/Resurrection_Desc
+    Text: Revive a fallen ally

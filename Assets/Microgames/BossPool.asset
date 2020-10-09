@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46eed6f2f95a5654aafdc317922702b4, type: 3}
+  m_Name: BossPool
+  m_EditorClassIdentifier: 
+  pool:
+  - microgame: {fileID: 331250826226987631, guid: 9aa1536d6b370c643bd1424cec1a616d,
+      type: 3}
+    hardMicrogame: {fileID: 331250826226987631, guid: 8bf0aaaf57f2a224c84f06fe70fdbb18,
+      type: 3}
+    type: 3
+  - microgame: {fileID: 331250826226987631, guid: 564dadaa52488a04899e9554957caf24,
+      type: 3}
+    hardMicrogame: {fileID: 331250826226987631, guid: 1a40faeab4ec66540af6d9dc587c8883,
+      type: 3}
+    type: 12
+  - microgame: {fileID: 331250826226987631, guid: 31bf91df3eb1ef7459ba9b5440ef3374,
+      type: 3}
+    hardMicrogame: {fileID: 331250826226987631, guid: e02f72e84f03db14daf7069b48fc0a03,
+      type: 3}
+    type: 1

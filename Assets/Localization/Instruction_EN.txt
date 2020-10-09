@@ -1,0 +1,5 @@
+Instruction/Grab = Hold to Grab
+Instruction/Select = Select
+Instruction/DragDrop = Drag & Drop
+Instruction/Move = Move
+Instruction/Rotate = Rotate

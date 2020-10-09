@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &724455328247497853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 724455328247497854}
+  - component: {fileID: 724455328247497855}
+  m_Layer: 0
+  m_Name: Interview_EN
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &724455328247497854
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724455328247497853}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &724455328247497855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724455328247497853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086ae75064fca9f46b315403da7f5d20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Source: {fileID: 4900000, guid: dc59d3f72e761bd41ac9083b4a5fcced, type: 3}
+  Language: English
+  Separator: ' = '
+  NewLine: \n
+  Comment: ' // '
+  Cache: 0
+  entries:
+  - Name: Interview/Intro1
+    Text: <i>hololive</i> Acting Interview!
+  - Name: Interview/Intro2
+    Text: Well then, let's get started!
+  - Name: Interview/Intermission
+    Text: We're not done yet!
+  - Name: Interview/End
+    Text: Thank you for your hard work!
+  - Name: Interview/Fail
+    Text: ...
+  - Name: Interview/Sora
+    Text: As <b>Sora-senpai</b>!
+  - Name: Interview/Roboco
+    Text: As <b>Roboco</b>!
+  - Name: Interview/Miko
+    Text: As <b>Mikomiko</b>!
+  - Name: Interview/Suisei
+    Text: As <b>Suisei</b>!
+  - Name: Interview/Haato
+    Text: As <b>Haato-chan</b>!
+  - Name: Interview/Mel
+    Text: As <b>Melmel</b>!
+  - Name: Interview/Matsuri
+    Text: As <b>Matsuri</b>!
+  - Name: Interview/Aki
+    Text: As <b>Akiaki</b>!
+  - Name: Interview/Fubuki
+    Text: As <b>Fubuki</b>!
+  - Name: Interview/Subaru
+    Text: As <b>Subaru</b>!
+  - Name: Interview/Choco
+    Text: As <b>Choco-sensei</b>!
+  - Name: Interview/Shion
+    Text: As <b>Shion</b>!
+  - Name: Interview/Ayame
+    Text: As <b>Ayamenko</b>!
+  - Name: Interview/Aqua
+    Text: As <b>Aqua-chan</b>!
+  - Name: Interview/Mio
+    Text: As <b>Mio</b>!
+  - Name: Interview/Okayu
+    Text: As <b>Okayun</b>!
+  - Name: Interview/Korone
+    Text: As <b>Koronen</b>!
+  - Name: Interview/Pekora
+    Text: As <b>Pekora</b>!
+  - Name: Interview/Rushia
+    Text: As <b>Rushia</b>!
+  - Name: Interview/Flare
+    Text: As <b>Flare</b>!
+  - Name: Interview/Noel
+    Text: As <b>Noel</b>!
+  - Name: Interview/Marine
+    Text: As <b>Marine</b>!
+  - Name: Interview/Watame
+    Text: As <b>Watame</b>!
+  - Name: Interview/Towa
+    Text: As <b>Towa-san</b>!
+  - Name: Interview/Coco
+    Text: As <b>Coco-chin</b>!
+  - Name: Interview/Kanata
+    Text: As <b>Kanatan</b>!
+  - Name: Interview/Luna
+    Text: As <b>Luna-tan</b>!
+  - Name: Interview/Sora_Greeting_0
+    Text: How are you, Soratomo?
+  - Name: Interview/Roboco_Greeting_0
+    Text: Hello-bo!
+  - Name: Interview/Miko_Greeting_0
+    Text: Nya-hello!
+  - Name: Interview/Suisei_Greeting_0
+    Text: Sui-chan's cute today too!
+  - Name: Interview/Haato_Greeting_0
+    Text: Haachama-chama~!
+  - Name: Interview/Haato_Greeting_1
+    Text: Kon-rouge!
+  - Name: Interview/Mel_Greeting_0
+    Text: Kon-kapu~
+  - Name: Interview/Matsuri_Greeting_0
+    Text: Wasshoi!
+  - Name: Interview/Aki_Greeting_0
+    Text: Alona!
+  - Name: Interview/Fubuki_Greeting_0
+    Text: Kon kon kitsune!
+  - Name: Interview/Fubuki_Greeting_1
+    Text: I'm not a cat!
+  - Name: Interview/Subaru_Greeting_0
+    Text: Chiwassu!
+  - Name: Interview/Choco_Greeting_0
+    Text: Choco~
+  - Name: Interview/Shion_Greeting_0
+    Text: Neeeee!
+  - Name: Interview/Ayame_Greeting_0
+    Text: Kon-nakiri!
+  - Name: Interview/Aqua_Greeting_0
+    Text: Kon-aqua!
+  - Name: Interview/Mio_Greeting_0
+    Text: Konban-mion!
+  - Name: Interview/Okayu_Greeting_0
+    Text: Mogumogu~ Okayu~!
+  - Name: Interview/Korone_Greeting_0
+    Text: Yubi! Yubi!
+  - Name: Interview/Korone_Greeting_1
+    Text: Oayo~
+  - Name: Interview/Pekora_Greeting_0
+    Text: "AH\u2193HA\u2191HA\u2191HA\u2191HA\u2191!"
+  - Name: Interview/Pekora_Greeting_1
+    Text: Kon-peko, kon-peko!
+  - Name: Interview/Rushia_Greeting_0
+    Text: Kon-rushi~
+  - Name: Interview/Rushia_Greeting_1
+    Text: Nanodesu~
+  - Name: Interview/Flare_Greeting_0
+    Text: Kon-nui~!
+  - Name: Interview/Noel_Greeting_0
+    Text: Muscle~
+  - Name: Interview/Marine_Greeting_0
+    Text: Ahoy!
+  - Name: Interview/Watame_Greeting_0
+    Text: It's not my fault!
+  - Name: Interview/Towa_Greeting_0
+    Text: Konyappi!
+  - Name: Interview/Coco_Greeting_0
+    Text: Okite! Okite! Okite!
+  - Name: Interview/Coco_Greeting_1
+    Text: Good morning motherf*ckers!
+  - Name: Interview/Kanata_Greeting_0
+    Text: Kon-kanata!
+  - Name: Interview/Kanata_Greeting_1
+    Text: Hei!
+  - Name: Interview/Luna_Greeting_0
+    Text: Nnaaaaa~

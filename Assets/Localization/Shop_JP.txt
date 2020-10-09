@@ -1,0 +1,12 @@
+﻿Shop/Default = デフォルト
+Shop/Achan = えーちゃん
+Shop/Fukkireta = 吹っ切れた
+Shop/BadApple = Bad Apple!!
+Shop/Fubuki = 白上フブキ
+Shop/Matsuri = 夏色まつり
+Shop/Sora = ときのそら
+Shop/Suisei = 星街すいせい
+Shop/Miko = さくらみこ
+Shop/AZKi = AZKi
+Shop/Watame = 角巻わため
+Shop/PPTenshi = PP天使

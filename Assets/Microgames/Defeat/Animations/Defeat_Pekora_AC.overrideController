@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Defeat_Pekora_AC
+  m_Controller: {fileID: 9100000, guid: 00101aa5343ed12489f0020185c4df13, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 1c8a7b129dc73bc4783ea979d48a6feb, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: dcd32d40a2ff3e34087b85c51b0fce76, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: cd3dbfb85a24af24182ba6fe36807c52, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7686c81fedffba44490dac7a7f626f9c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 52ce74bb3476de54294e6fb902fdbe72, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9b1733e42e2aaef4981b244d925ab3ac, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d5b9690a7eb6fa04ea00601f1d128c5a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1d16aebf20221e6459c5a14133839955, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 077a2978e8f012a41a1c384002e62bad, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3d6fddee4d96b904eaff990e126bc7db, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 5a75265e38b76fd428eb574561f22623, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 03e505e34c1f78046b387cd09f5c07c7, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: e60aa263498a2624eb5ea2d703a86066, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: cc6dfd4fbd8beba46ad68778a98c90a2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4f42714a2a43f984892ce799c406bf53, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3cf7cfcc92f283b489f8dbde783e8379, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: eeda61f8d4b29c0458935e0437ca7713, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b8c230c70809ec94586f076e682fa973, type: 2}

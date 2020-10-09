@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46eed6f2f95a5654aafdc317922702b4, type: 3}
+  m_Name: MicrogamePool
+  m_EditorClassIdentifier: 
+  pool:
+  - microgame: {fileID: 331250826226987631, guid: 13d991954366bcf4ead874ba62691fdf,
+      type: 3}
+    hardMicrogame: {fileID: 331250826226987631, guid: f61f7ff7182d24842ac122f1bf5500d1,
+      type: 3}
+    type: 12
+  - microgame: {fileID: 331250826226987631, guid: d5b597f2aa5b3b64495b9daf526db83e,
+      type: 3}
+    hardMicrogame: {fileID: 331250826226987631, guid: 8165853a8c5425d4089cdd02d5b59848,
+      type: 3}
+    type: 4
+  - microgame: {fileID: 331250826226987631, guid: 68e4b64a127454c47a9244c22ff1ab66,
+      type: 3}
+    hardMicrogame: {fileID: 331250826226987631, guid: 830dd521fdcbc1942b7658e207220cca,
+      type: 3}
+    type: 12
+  - microgame: {fileID: 331250826226987631, guid: ed4c7ec188255444697cfbbac46c3f80,
+      type: 3}
+    hardMicrogame: {fileID: 331250826226987631, guid: 3dc5ce0d06b1b394a9e6c275b6d71a0c,
+      type: 3}
+    type: 1
+  - microgame: {fileID: 331250826226987631, guid: e0a3feddfd660f6458110ab67068a9e1,
+      type: 3}
+    hardMicrogame: {fileID: 331250826226987631, guid: fedbb58989885c44e9c319fbe8634452,
+      type: 3}
+    type: 1
+  - microgame: {fileID: 331250826226987631, guid: 056ff8202d6611b4386a43def595c724,
+      type: 3}
+    hardMicrogame: {fileID: 331250826226987631, guid: 5bd885f595a06044996d54017597918c,
+      type: 3}
+    type: 4
+  - microgame: {fileID: 331250826226987631, guid: 129d3f7d57519cf4cbb1548d065da1de,
+      type: 3}
+    hardMicrogame: {fileID: 331250826226987631, guid: 198101d5b03d58e4287acd9ecc9feb4f,
+      type: 3}
+    type: 12
+  - microgame: {fileID: 331250826226987631, guid: 93d94729d7dd5df4fa3a1c935f30a29a,
+      type: 3}
+    hardMicrogame: {fileID: 331250826226987631, guid: 075303e613181314da9574129375bea3,
+      type: 3}
+    type: 4
+  - microgame: {fileID: 331250826226987631, guid: 1b1c520d18b17fb47a69fdf2ef90416a,
+      type: 3}
+    hardMicrogame: {fileID: 331250826226987631, guid: 187bdab7dc6cf794ead1fbb10f124043,
+      type: 3}
+    type: 3
+  - microgame: {fileID: 331250826226987631, guid: 02d60d1f4123dc845a3d7219563aea13,
+      type: 3}
+    hardMicrogame: {fileID: 331250826226987631, guid: 67825d0f9657de145ac74ab1380719f9,
+      type: 3}
+    type: 12
+  - microgame: {fileID: 331250826226987631, guid: 3ccfa940140f3ef458b9d92ac41359aa,
+      type: 3}
+    hardMicrogame: {fileID: 331250826226987631, guid: c665e47a301fc6b489962d370bdb2954,
+      type: 3}
+    type: 12
+  - microgame: {fileID: 331250826226987631, guid: 7facd8a35747aa0458e902c2de55daaa,
+      type: 3}
+    hardMicrogame: {fileID: 331250826226987631, guid: c02c92640bb4b95439a635e27fa5a799,
+      type: 3}
+    type: 12
+  - microgame: {fileID: 331250826226987631, guid: 64efd37e4e6fc2842a9b17d776c51f48,
+      type: 3}
+    hardMicrogame: {fileID: 331250826226987631, guid: f0579b5375fec9b47abe6bfa8008a411,
+      type: 3}
+    type: 1
+  - microgame: {fileID: 331250826226987631, guid: 1f489a0e5432b954a82ccb56c3b33db9,
+      type: 3}
+    hardMicrogame: {fileID: 331250826226987631, guid: a287f7a62ed347549a690a502da59e3d,
+      type: 3}
+    type: 1
+  - microgame: {fileID: 331250826226987631, guid: e04c150214c80314bb8f99706e7500d7,
+      type: 3}
+    hardMicrogame: {fileID: 331250826226987631, guid: 030c2394218d5f747b29a7973aadc2b6,
+      type: 3}
+    type: 12
+  - microgame: {fileID: 331250826226987631, guid: f1905ee0ed7aaab45be72d146643934b,
+      type: 3}
+    hardMicrogame: {fileID: 331250826226987631, guid: 0cf5ef686c53dc04990266eac7fc5f39,
+      type: 3}
+    type: 12
+  - microgame: {fileID: 331250826226987631, guid: bacdce3c2a9ef9a4e9f3f07473839a10,
+      type: 3}
+    hardMicrogame: {fileID: 331250826226987631, guid: bacdce3c2a9ef9a4e9f3f07473839a10,
+      type: 3}
+    type: 12
+  - microgame: {fileID: 331250826226987631, guid: 867a9eaf978e3454dabc7490e3406957,
+      type: 3}
+    hardMicrogame: {fileID: 331250826226987631, guid: 8339d89d1372dea4c8ac434f203c620c,
+      type: 3}
+    type: 12
+  - microgame: {fileID: 331250826226987631, guid: 8e2c2c2035a881849b9d99335f8fd874,
+      type: 3}
+    hardMicrogame: {fileID: 331250826226987631, guid: d8789910580e4dd41b1cd9e60370e1aa,
+      type: 3}
+    type: 13
+  - microgame: {fileID: 331250826226987631, guid: 74d8f33f869df14489ead975d484e43f,
+      type: 3}
+    hardMicrogame: {fileID: 331250826226987631, guid: 42a77c9d1fc51cf40a71c47a3e999ce8,
+      type: 3}
+    type: 12

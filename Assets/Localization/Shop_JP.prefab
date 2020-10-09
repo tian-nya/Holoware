@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5259110653537665016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5259110653537665023}
+  - component: {fileID: 5259110653537665022}
+  m_Layer: 0
+  m_Name: Shop_JP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5259110653537665023
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5259110653537665016}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5259110653537665022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5259110653537665016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086ae75064fca9f46b315403da7f5d20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Source: {fileID: 4900000, guid: 9aaa5665d49066d49a5f44e82668fcf5, type: 3}
+  Language: Japanese
+  Separator: ' = '
+  NewLine: \n
+  Comment: ' // '
+  Cache: 0
+  entries:
+  - Name: Shop/Default
+    Text: "\u30C7\u30D5\u30A9\u30EB\u30C8"
+  - Name: Shop/Achan
+    Text: "\u3048\u30FC\u3061\u3083\u3093"
+  - Name: Shop/Fukkireta
+    Text: "\u5439\u3063\u5207\u308C\u305F"
+  - Name: Shop/BadApple
+    Text: Bad Apple!!
+  - Name: Shop/Fubuki
+    Text: "\u767D\u4E0A\u30D5\u30D6\u30AD"
+  - Name: Shop/Matsuri
+    Text: "\u590F\u8272\u307E\u3064\u308A"
+  - Name: Shop/Sora
+    Text: "\u3068\u304D\u306E\u305D\u3089"
+  - Name: Shop/Suisei
+    Text: "\u661F\u8857\u3059\u3044\u305B\u3044"
+  - Name: Shop/Miko
+    Text: "\u3055\u304F\u3089\u307F\u3053"
+  - Name: Shop/AZKi
+    Text: AZKi
+  - Name: Shop/Watame
+    Text: "\u89D2\u5DFB\u308F\u305F\u3081"
+  - Name: Shop/PPTenshi
+    Text: "PP\u5929\u4F7F"

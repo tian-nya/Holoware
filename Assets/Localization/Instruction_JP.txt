@@ -1,0 +1,5 @@
+﻿Instruction/Grab = 押し続けてつかむ
+Instruction/Select = セレクト
+Instruction/DragDrop = ドラッグ&ドロップ
+Instruction/Move = 動く
+Instruction/Rotate = 回る

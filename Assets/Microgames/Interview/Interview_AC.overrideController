@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Interview_AC
+  m_Controller: {fileID: 9100000, guid: fa687ccd192878d419ab08416ee27714, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: df3cfdb4f09760245bd48ef3d10e2249, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 26778561614f88c4ea94c25c7ed6aa11, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 5b9cf25dbda7ee447b34dfc91562c848, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0d25ff6915cda9540be7860f172ce089, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: e5fb303da9a1eff4f8eaa7ea00271559, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 588b656a0c5121d41bed9c68f6776836, type: 2}

@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8333684762588534031
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4158918105842790676}
+  - component: {fileID: 3913384584169201120}
+  m_Layer: 0
+  m_Name: Defeat_JP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4158918105842790676
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8333684762588534031}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3913384584169201120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8333684762588534031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086ae75064fca9f46b315403da7f5d20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Source: {fileID: 4900000, guid: d9def7262dc47c4488edf677175807ad, type: 3}
+  Language: Japanese
+  Separator: ' = '
+  NewLine: \n
+  Comment: ' // '
+  Cache: 0
+  entries:
+  - Name: Defeat/Attack
+    Text: "\u305F\u305F\u304B\u3046"
+  - Name: Defeat/Ability
+    Text: "\u30A2\u30D3\u30EA\u30C6\u30A3"
+  - Name: Defeat/Cancel
+    Text: "\u30AD\u30E3\u30F3\u30BB\u30EB"
+  - Name: Defeat/ATK
+    Text: ATK
+  - Name: Defeat/DEF
+    Text: DEF
+  - Name: Defeat/Win
+    Text: YOU WIN!
+  - Name: Defeat/Lose
+    Text: YOU LOSE...
+  - Name: Defeat/Fubuking
+    Text: "\u30D5\u30D6\u30AD\u30F3\u30B0"
+  - Name: Defeat/WhiteFang
+    Text: "\u30DB\u30EF\u30A4\u30C8\u30D5\u30A1\u30F3\u30B0"
+  - Name: Defeat/IcicleFall
+    Text: "\u30A2\u30A4\u30B7\u30AF\u30EB\u30D5\u30A9\u30FC\u30EB"
+  - Name: Defeat/WhiteoutBlizzard
+    Text: "\u767D\u4E0A\u5439\u96EA"
+  - Name: Defeat/FoxyWiles
+    Text: "\u72D0\u306E\u60AA\u5DE7\u307F"
+  - Name: Defeat/Fireball
+    Text: "\u706B\u306E\u7389"
+  - Name: Defeat/Fireball_Desc
+    Text: "\u6575\u306B\u5927\u30C0\u30E1\u30FC\u30B8"
+  - Name: Defeat/OmegaFlare
+    Text: "\u30AA\u30E1\u30AC\u30D5\u30EC\u30A2"
+  - Name: Defeat/OmegaFlare_Desc
+    Text: "\u6575\u306B\u7279\u5927\u30C0\u30E1\u30FC\u30B8\u3001\u304A\u3088\u3073DEF\u2193\u52B9\u679C"
+  - Name: Defeat/HeaveHo
+    Text: "\u3088\u3046\u305D\u308D\uFF01"
+  - Name: Defeat/HeaveHo_Desc
+    Text: "\u5473\u65B9\u5358\u4F53\u306EMP\u309225\u56DE\u5FA9"
+  - Name: Defeat/Ahoy
+    Text: "\u30A2\u30DB\u30A4\uFF01"
+  - Name: Defeat/Ahoy_Desc
+    Text: "\u5473\u65B9\u5358\u4F53\u306BATK\u2191\u52B9\u679C"
+  - Name: Defeat/Trapeko
+    Text: "\u30C8\u30E9\u30C3\u30DA\u30B3"
+  - Name: Defeat/Trapeko_Desc
+    Text: "\u6575\u306BATK\u2193\u52B9\u679C"
+  - Name: Defeat/Surpekorise
+    Text: "\u30DA\u30B3\u30C9\u30ED\u30AD\uFF01"
+  - Name: Defeat/Surpekorise_Desc
+    Text: "\u6575\u306E\u884C\u52D5\u3092\u9045\u3089\u305B\u308B"
+  - Name: Defeat/Shield
+    Text: "\u5B88\u308B"
+  - Name: Defeat/Shield_Desc
+    Text: "\u6575\u306E\u6B21\u306E\u653B\u6483\u6642\u3001\u30CE\u30A8\u30EB\u3060\u3051\u304C\u72D9\u308F\u308C\u308B"
+  - Name: Defeat/SilverBarrier
+    Text: "\u9280\u306E\u30D0\u30EA\u30A2"
+  - Name: Defeat/SilverBarrier_Desc
+    Text: "\u6575\u306E\u6B21\u306E\u653B\u6483\u30C0\u30E1\u30FC\u30B8\u3092\u534A\u6E1B"
+  - Name: Defeat/Heal
+    Text: "\u30D2\u30FC\u30EB"
+  - Name: Defeat/Heal_Desc
+    Text: "\u5473\u65B9\u5168\u4F53\u306EHP\u309225\u305A\u3064\u56DE\u5FA9"
+  - Name: Defeat/Resurrection
+    Text: "\u5FA9\u6D3B"
+  - Name: Defeat/Resurrection_Desc
+    Text: "\u5012\u308C\u305F\u5473\u65B9\u5358\u4F53\u3092\u5FA9\u6D3B"

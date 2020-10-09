@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &724455328247497853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 724455328247497854}
+  - component: {fileID: 724455328247497855}
+  m_Layer: 0
+  m_Name: Character_EN
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &724455328247497854
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724455328247497853}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &724455328247497855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724455328247497853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086ae75064fca9f46b315403da7f5d20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Source: {fileID: 4900000, guid: 8dc6153a4f5ba304b945a0c54d4a5be3, type: 3}
+  Language: English
+  Separator: ' = '
+  NewLine: \n
+  Comment: ' // '
+  Cache: 0
+  entries:
+  - Name: Character/Sora
+    Text: Sora
+  - Name: Character/TokinoSora
+    Text: Tokino Sora
+  - Name: Character/YuujinA
+    Text: Friend A
+  - Name: Character/AChan
+    Text: A-chan
+  - Name: Character/Roboco
+    Text: Roboco
+  - Name: Character/Miko
+    Text: Miko
+  - Name: Character/SakuraMiko
+    Text: Sakura Miko
+  - Name: Character/Suisei
+    Text: Suisei
+  - Name: Character/HoshimachiSuisei
+    Text: Hoshimachi Suisei
+  - Name: Character/Haato
+    Text: Haato
+  - Name: Character/AkaiHaato
+    Text: Akai Haato
+  - Name: Character/Mel
+    Text: Mel
+  - Name: Character/YozoraMel
+    Text: Yozora Mel
+  - Name: Character/Matsuri
+    Text: Matsuri
+  - Name: Character/NatsuiroMatsuri
+    Text: Natsuiro Matsuri
+  - Name: Character/Aki
+    Text: Aki
+  - Name: Character/AkiRosenthal
+    Text: Aki Rosenthal
+  - Name: Character/Fubuki
+    Text: Fubuki
+  - Name: Character/ShirakamiFubuki
+    Text: Shirakami Fubuki
+  - Name: Character/Subaru
+    Text: Subaru
+  - Name: Character/OozoraSubaru
+    Text: Oozora Subaru
+  - Name: Character/Choco
+    Text: Choco
+  - Name: Character/YuzukiChoco
+    Text: Yuzuki Choco
+  - Name: Character/Shion
+    Text: Shion
+  - Name: Character/MurasakiShion
+    Text: Murasaki Shion
+  - Name: Character/Ayame
+    Text: Ayame
+  - Name: Character/NakiriAyame
+    Text: Nakiri Ayame
+  - Name: Character/Aqua
+    Text: Aqua
+  - Name: Character/MinatoAqua
+    Text: Minato Aqua
+  - Name: Character/Mio
+    Text: Mio
+  - Name: Character/OokamiMio
+    Text: Ookami Mio
+  - Name: Character/Okayu
+    Text: Okayu
+  - Name: Character/NekomataOkayu
+    Text: Nekomata Okayu
+  - Name: Character/Korone
+    Text: Korone
+  - Name: Character/InugamiKorone
+    Text: Inugami Korone
+  - Name: Character/Pekora
+    Text: Pekora
+  - Name: Character/UsadaPekora
+    Text: Usada Pekora
+  - Name: Character/Rushia
+    Text: Rushia
+  - Name: Character/UruhaRushia
+    Text: Uruha Rushia
+  - Name: Character/Flare
+    Text: Flare
+  - Name: Character/ShiranuiFlare
+    Text: Shiranui Flare
+  - Name: Character/Noel
+    Text: Noel
+  - Name: Character/ShiroganeNoel
+    Text: Shirogane Noel
+  - Name: Character/Marine
+    Text: Marine
+  - Name: Character/HoushouMarine
+    Text: Houshou Marine
+  - Name: Character/Watame
+    Text: Watame
+  - Name: Character/TsunomakiWatame
+    Text: Tsunomaki Watame
+  - Name: Character/Towa
+    Text: Towa
+  - Name: Character/TokoyamiTowa
+    Text: Tokoyami Towa
+  - Name: Character/Coco
+    Text: Coco
+  - Name: Character/KiryuCoco
+    Text: Kiryu Coco
+  - Name: Character/Kanata
+    Text: Kanata
+  - Name: Character/AmaneKanata
+    Text: Amane Kanata
+  - Name: Character/Luna
+    Text: Luna
+  - Name: Character/HimemoriLuna
+    Text: Himemori Luna
+  - Name: Character/AZKi
+    Text: AZKi
+  - Name: Character/YAGOO
+    Text: YAGOO
+  - Name: Character/Lamy
+    Text: Lamy
+  - Name: Character/YukihanaLamy
+    Text: Yukihana Lamy
+  - Name: Character/Nene
+    Text: Nene
+  - Name: Character/MomosuzuNene
+    Text: Momosuzu Nene
+  - Name: Character/Botan
+    Text: Botan
+  - Name: Character/ShishiroBotan
+    Text: Shishiro Botan
+  - Name: Character/Polka
+    Text: Polka
+  - Name: Character/OmaruPolka
+    Text: Omaru Polka
+  - Name: Character/Calliope
+    Text: Calliope
+  - Name: Character/Calli
+    Text: Calli
+  - Name: Character/MoriCalliope
+    Text: Mori Calliope
+  - Name: Character/Kiara
+    Text: Kiara
+  - Name: Character/TakanashiKiara
+    Text: Takanashi Kiara
+  - Name: Character/Inanis
+    Text: Ina'nis
+  - Name: Character/Ina
+    Text: Ina
+  - Name: Character/NinomaeInanis
+    Text: Ninomae Ina'nis
+  - Name: Character/Gura
+    Text: Gura
+  - Name: Character/GawrGura
+    Text: Gawr Gura
+  - Name: Character/Amelia
+    Text: Amelia
+  - Name: Character/WatsonAmelia
+    Text: Watson Amelia
+  - Name: Character/Risu
+    Text: Risu
+  - Name: Character/AyundaRisu
+    Text: Ayunda Risu
+  - Name: Character/Moona
+    Text: Moona
+  - Name: Character/MoonaHoshinova
+    Text: Moona Hoshinova
+  - Name: Character/Iofifteen
+    Text: Iofifteen
+  - Name: Character/Iofi
+    Text: Iofi
+  - Name: Character/AiraniIofifteen
+    Text: Airani Iofifteen

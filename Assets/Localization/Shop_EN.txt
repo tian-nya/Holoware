@@ -1,0 +1,12 @@
+Shop/Default = Default
+Shop/Achan = A-chan
+Shop/Fukkireta = FUKKIRETA
+Shop/BadApple = Bad Apple!!
+Shop/Fubuki = Shirakami Fubuki
+Shop/Matsuri = Natsuiro Matsuri
+Shop/Sora = Tokino Sora
+Shop/Suisei = Hoshimachi Suisei
+Shop/Miko = Sakura Miko
+Shop/AZKi = AZKi
+Shop/Watame = Tsunomaki Watame
+Shop/PPTenshi = PPTenshi

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dance_AC_Matsuri
+  m_Controller: {fileID: 9100000, guid: 302eca9aed4868045a53a8a218304677, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 1427bd3407384ae48ba6a49c24a82a55, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a8b94d66cd787064cb2c04401ad74742, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ee44f9febf1d4604a9c4dedac39f43ed, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d481bcb637048e841962c46f1855deb0, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: dc9356c832a201e49bcddb957eb32df7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ffda8023f82d5724aa702e8fe5080cf0, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 5b681027fde8d8746bb299a3e80b1a06, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1098c66b5a58bc045853767859520262, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7b3f8159676111949bf1a8658f673078, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 40291c633784d0f439a1f11a48fc7376, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 14fabed83bb0bcd43b7729a13bf77fb2, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 76fc3f0c0ece294428d8396379572fa9, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: e319fa8d8998c11488d157eb0969384c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b095206b001dbdd45a1c3981a16b4e55, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 1e9313dba63931c48acdc7a97f288041, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b6fe3c57a6b39624b80394e1ea7f8bd9, type: 2}

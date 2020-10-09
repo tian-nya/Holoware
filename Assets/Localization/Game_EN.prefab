@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3504322266046106698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3504322266046106697}
+  - component: {fileID: 3504322266046106696}
+  m_Layer: 0
+  m_Name: Game_EN
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3504322266046106697
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3504322266046106698}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3504322266046106696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3504322266046106698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086ae75064fca9f46b315403da7f5d20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Source: {fileID: 4900000, guid: 7878b40e0138fa640accec046316c116, type: 3}
+  Language: English
+  Separator: ' = '
+  NewLine: \n
+  Comment: ' // '
+  Cache: 0
+  entries:
+  - Name: Game/Click
+    Text: Click!
+  - Name: Game/Eat
+    Text: Eat!
+  - Name: Game/Silence
+    Text: Silence!
+  - Name: Game/ASMR
+    Text: ASMR!
+  - Name: Game/Swat
+    Text: Swat!
+  - Name: Game/GrabCarrot
+    Text: Grab Carrot!
+  - Name: Game/Wear
+    Text: Wear!
+  - Name: Game/Fish
+    Text: Fish!
+  - Name: Game/WhackYubi
+    Text: Whack-a-Finger!
+  - Name: Game/Extinguish
+    Text: Extinguish!
+  - Name: Game/Slice
+    Text: Slice!
+  - Name: Game/Mow
+    Text: Mow!
+  - Name: Game/Draw
+    Text: Draw!
+  - Name: Game/Defeat
+    Text: Defeat!
+  - Name: Game/Shoot
+    Text: Shoot!
+  - Name: Game/Dance
+    Text: Dance!
+  - Name: Game/ToTheBeat
+    Text: To the Beat!
+  - Name: Game/Match
+    Text: Match!
+  - Name: Game/FindMarine
+    Text: Find Marine!
+  - Name: Game/Make
+    Text: Make!
+  - Name: Game/Drumroll
+    Text: Drumroll!
+  - Name: Game/GuessWho
+    Text: Guess Who!
+  - Name: Game/RPS
+    Text: RPS!
+  - Name: Game/Solve
+    Text: Solve!
+  - Name: Game/Climb
+    Text: Climb!
+  - Name: Game/Destroy
+    Text: Destroy!
+  - Name: Game/Connect
+    Text: Connect!
+  - Name: Game/NoSurvivors
+    Text: No Survivors!
+  - Name: Game/Deal
+    Text: Deal!
+  - Name: Game/Complain
+    Text: Complain!
+  - Name: Game/Offer
+    Text: Offer!
+  - Name: Game/Run
+    Text: Run!
+  - Name: Game/Drive
+    Text: Drive!
+  - Name: Game/Interview
+    Text: Interview!
+  - Name: Game/Sort
+    Text: Sort!
+  - Name: Game/Survive
+    Text: Survive!
+  - Name: Game/Fight
+    Text: Fight!
+  - Name: Game/Steal
+    Text: Steal!
+  - Name: Game/Imitate
+    Text: Imitate!

@@ -1,0 +1,13 @@
+Misc/Birthday = Birthday
+Misc/Height = Height
+Misc/Other = Other
+Misc/Hololive = hololive
+Misc/HololiveGen1 = hololive 1st generation
+Misc/HololiveGen2 = hololive 2nd generation
+Misc/HololiveGen3 = hololive 3rd generation
+Misc/HololiveGen4 = hololive 4th generation
+Misc/HololiveGamers = hololive GAMERS
+Misc/InnkMusic = INNK MUSIC
+Misc/HololiveGen5 = hololive 5th generation
+Misc/HololiveEN = hololive EN 1st generation
+Misc/HololiveID = hololive ID
