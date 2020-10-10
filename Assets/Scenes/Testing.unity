@@ -2045,6 +2045,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: ef6929a5bf7195443ba71e3fe8c25d6b,
         type: 2}
+    - target: {fileID: 2425312780539697252, guid: 4c5e26ed49f7ad94e9d3196845073932,
+        type: 3}
+      propertyPath: bossInterval
+      value: 1000000
+      objectReference: {fileID: 0}
     - target: {fileID: 2815349174404094260, guid: 4c5e26ed49f7ad94e9d3196845073932,
         type: 3}
       propertyPath: m_LocalPosition.x
