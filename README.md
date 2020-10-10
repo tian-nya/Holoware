@@ -25,7 +25,7 @@ Scripts in the [Assets/Scripts/Utilities](Assets/Scripts/Utilities) folder may m
 
 All assets exclusive to one microgame should be stored in a subfolder of [Assets/Microgames](Assets/Microgames). Microgame content is stored in a prefab with the microgame main script attached.
 
-The main script for a microgame inherits Microgame.cs. See [MicroPlaceholder.cs](Assets/Microgames/Placeholder/MicroPlaceholder.cs) and [MicroClimb.cs](Assets/Microgames/Placeholder/MicroClimb.cs) for basic examples of microgame main scripts.
+The main script for a microgame inherits Microgame.cs. See [MicroPlaceholder.cs](Assets/Microgames/Placeholder/MicroPlaceholder.cs) and [MicroClimb.cs](Assets/Microgames/Climb/MicroClimb.cs) for basic examples of microgame main scripts.
 
 To test a microgame, replace the Microgame and/or Hard Microgame fields in **Assets/Microgames/MicrogamePoolTest.asset**, then run the **Testing** scene (Assets/Scenes/Testing.unity).
 
