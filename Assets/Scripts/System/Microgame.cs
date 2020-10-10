@@ -7,16 +7,17 @@ using UnityEngine.Events;
 public abstract class Microgame : MonoBehaviour
 {
     public RectTransform avatarArea;
-    public List<GameObject> avatarSelection;
-    public bool isBoss = false;
-    public int baseBeats = 8;
+    public List<GameObject> avatarSelection; // avatar prefabs can be found in Prefabs/Avatars
+    public bool isBoss = false; // if true, clearing the microgame restores 1 life
+    public int baseBeats = 8; // # of beats when using standard timer; use multiples of 4 (keep in mind most microgame BGM maxes out at 16 beats)
     [HideInInspector] public float timer;
-    public string actionVerb;
-    public List<GameObject> objectsToEnable;
-    public bool useStandardTimer = true;
-    public UnityEvent onStart;
+    public string actionVerb; // used to point to the microgame name in localization files (Localization/Game_EN & Localization/Game_JP)
+    public List<GameObject> objectsToEnable; // any game objects that must be enabled once the microgame starts (NOT when instantiated) can be added in here
+    public bool useStandardTimer = true; // when true, the timer UI element will show and the microgame will exit once timer hits 0
+    public UnityEvent onStart; // fires when microgame starts (NOT when instantiated)
     [HideInInspector] public BGMManager bgm;
-    [HideInInspector] public bool cleared, timeOver;
+    [HideInInspector] public bool cleared; // a microgame is considered cleared if cleared = true
+    [HideInInspector] public bool timeOver; // once set to true, the microgame will exit; must be set manually if useStandardTimer = false
     [HideInInspector] public List<CharacterAvatar> avatars;
     public bool Cleared
     {
@@ -70,6 +71,7 @@ public abstract class Microgame : MonoBehaviour
         }
     }
 
+    // add avatar from avatarSelection at specified index to avatars list
     public void AddAvatar(int index)
     {
         avatars.Add(Instantiate(avatarSelection[index], avatarArea).GetComponent<CharacterAvatar>());

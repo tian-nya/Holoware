@@ -44,14 +44,14 @@
                 }
                 if (grounded && !sliding)
                 {
-                    if (Input.GetButtonDown("Up"))
+                    if (Input.GetButton("Up"))
                     {
                         animator.SetTrigger("jump");
                         grounded = false;
                         rb.velocity += Vector2.up * jump;
                         sfx.PlaySFX(0);
                     }
-                    else if (Input.GetButtonDown("Down"))
+                    else if (Input.GetButton("Down"))
                     {
                         sliding = true;
                         animator.SetTrigger("slide");

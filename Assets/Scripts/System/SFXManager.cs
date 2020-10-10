@@ -22,6 +22,7 @@ public class SFXManager : MonoBehaviour
         }
     }
 
+    // play SFX at specified index
     public void PlaySFX(int index)
     {
         if (index < 0 || index >= sfxData.Length) return;
@@ -29,6 +30,7 @@ public class SFXManager : MonoBehaviour
         audioSource.PlayOneShot(sfxData[index].audioClip[Random.Range(0, sfxData[index].audioClip.Length)], GameSettings.sfxVolume * sfxData[index].volume);
     }
 
+    // same as above but override volume
     public void PlaySFX(int index, float volume)
     {
         if (index < 0 || index >= sfxData.Length) return;
@@ -39,7 +41,7 @@ public class SFXManager : MonoBehaviour
     [System.Serializable]
     public struct SFXData
     {
-        public AudioClip[] audioClip;
+        public AudioClip[] audioClip; // a random audio clip is selected when SFX is played
         [Range(0f, 1f)]
         public float volume;
         public bool playOnEnable;

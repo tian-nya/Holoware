@@ -139,7 +139,7 @@ MonoBehaviour:
   - Name: Interview/Subaru_Greeting_0
     Text: "\u3061\u308F\u3063\u3059\uFF01"
   - Name: Interview/Choco_Greeting_0
-    Text: "\u3061\u3087\u3063\u3053\u301C"
+    Text: "\u3061\u3087\u3063\u3053\u3093\u301C"
   - Name: Interview/Shion_Greeting_0
     Text: "\u306D\u3048\u3048\u3048\u3048\u3048\uFF01"
   - Name: Interview/Ayame_Greeting_0

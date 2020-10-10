@@ -253,29 +253,29 @@ MonoBehaviour:
   spawnObjects:
   - spawnObject: {fileID: 2744791171929142247, guid: 6154cc7f1352bc9479c8cd690e36d222,
       type: 3}
-    intervalToNextSpawn: 7.5
+    intervalToNextSpawn: 8.5
   - spawnObject: {fileID: 2744791171929142247, guid: e278e87d9a64c754b87a91b9c92dee64,
       type: 3}
-    intervalToNextSpawn: 9
+    intervalToNextSpawn: 10
   - spawnObject: {fileID: 2744791171929142247, guid: 8c648c1d863f8904d9af2d799eed6b27,
       type: 3}
-    intervalToNextSpawn: 7
+    intervalToNextSpawn: 8
   - spawnObject: {fileID: 2744791171929142247, guid: b981b498bbe7c10429a8cdf46f4166ef,
       type: 3}
-    intervalToNextSpawn: 10
+    intervalToNextSpawn: 11
   - spawnObject: {fileID: 2744791171929142247, guid: 172966b1c23e43e4690ba51eb4f0b022,
       type: 3}
-    intervalToNextSpawn: 6
+    intervalToNextSpawn: 7
   - spawnObject: {fileID: 2744791171929142247, guid: 4712bf96c73e20a41a5d89350fc1c656,
       type: 3}
-    intervalToNextSpawn: 3
+    intervalToNextSpawn: 3.5
   - spawnObject: {fileID: 2744791171929142247, guid: fb0991cb6cc98d3439e35a0b3adb3960,
       type: 3}
-    intervalToNextSpawn: 7.5
+    intervalToNextSpawn: 8.5
   spawnAmount: 0
-  firstSpawnPosition: 12
+  firstSpawnPosition: 15
   maxSpawnDistance: 72.5
-  spawnIntervalVariation: 2
+  spawnIntervalVariation: 1
 --- !u!1 &519264002951775992
 GameObject:
   m_ObjectHideFlags: 0
@@ -1112,6 +1112,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6573,6 +6574,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []

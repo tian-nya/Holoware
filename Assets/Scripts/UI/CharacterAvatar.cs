@@ -15,6 +15,7 @@ public class CharacterAvatar : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
+    // 0 = neutral, 1 = positive, 2 = negative
     public void SetExpression(int index)
     {
         image.sprite = expressions[index].expression;

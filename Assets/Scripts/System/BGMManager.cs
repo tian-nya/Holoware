@@ -10,7 +10,7 @@ public class BGMManager : MonoBehaviour
     [Header("Play on Awake Options")]
     public bool playOnAwake;
     public bool playRandom;
-    public int index;
+    public int index; // if playRandom is false, index points to BGM to play
 
     void Awake()
     {
@@ -36,6 +36,7 @@ public class BGMManager : MonoBehaviour
         audioSource.volume = GameSettings.bgmVolume;
     }
 
+    // play BGM at specified index
     public void PlayBGM(int index)
     {
         if (!audioSource) audioSource = GetComponent<AudioSource>();
@@ -45,6 +46,7 @@ public class BGMManager : MonoBehaviour
         audioSource.Play();
     }
 
+    // directly provide audio clip to play
     public void PlayBGM(AudioClip clip)
     {
         if (!audioSource) audioSource = GetComponent<AudioSource>();
