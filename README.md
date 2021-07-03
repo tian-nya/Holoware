@@ -1,17 +1,9 @@
 # Holoware
 ***Holoware / メイドインホロ*** is a WarioWare-inspired *hololive* fangame featuring its various virtual YouTuber talents. 
 
-## Contributing
+This project was developed in **Unity 2019.4.11f1** using C#.
 
-*Holoware* development is discussed in the **[Hololive Creators Club](https://discord.gg/xJd9Der)** Discord server.
-
-This project is being developed in **Unity 2019.4.11f1** using C#.
-
-[Task list](https://docs.google.com/document/d/1RAYOofqorfN2YzauiiTMXFqHyFn2YotmVLP6PCBGmdE/edit?usp=sharing)
-
-### Adding microgames
-
-Create a branch to work in for your new microgame.
+### Creating microgames
 
 The following scripts are an integral part of developing microgames:
 - **[Microgame.cs](Assets/Scripts/System/Microgame.cs)**
@@ -32,15 +24,9 @@ To test a microgame, replace the Microgame and/or Hard Microgame fields in **Ass
 Some things to be aware of:
 - All scripts exclusive to a microgame should be organized under the namespace **Micro.<microgame name>**.
 - Instantiated game objects must be children of the microgame transform, such that they are removed once the microgame is destroyed.
-- Please do not modify existing assets, scripts and scenes other than Testing. Changes to Testing should not be merged into main.
-- You may use existing assets such as image files, sound files, materials, etc. For characters, use the character sprites provided in [Assets/Sprites/Characters](Assets/Sprites/Characters). You will need to create other assets yourself.
-- Do not worry about the microgame name displaying in the game as it involves the localization files.
-- Keep your code readable and easily modifiable or I'll eat you alive.
-
-Submit a pull request after completing your microgame and I'll handle the integration on my end.
 
 ## License
 
-No license. Please do not redistribute content to non-contributors without permission from the repository owner. Exceptions apply to public domain/licensed assets such as plugins and some audio files.
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-© 2020 Tianyao Liu
+© 2020 tian nya
