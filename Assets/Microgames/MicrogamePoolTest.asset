@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: MicrogamePoolTest
   m_EditorClassIdentifier: 
   pool:
-  - microgame: {fileID: 331250826226987631, guid: 1f489a0e5432b954a82ccb56c3b33db9,
+  - microgame: {fileID: 331250826226987631, guid: 9aa1536d6b370c643bd1424cec1a616d,
       type: 3}
-    hardMicrogame: {fileID: 331250826226987631, guid: a287f7a62ed347549a690a502da59e3d,
+    hardMicrogame: {fileID: 331250826226987631, guid: 8bf0aaaf57f2a224c84f06fe70fdbb18,
       type: 3}
     type: 12

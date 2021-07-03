@@ -35,7 +35,7 @@ public class SFXManager : MonoBehaviour
     {
         if (index < 0 || index >= sfxData.Length) return;
         if (!audioSource) return;
-        audioSource.PlayOneShot(sfxData[index].audioClip[Random.Range(0, sfxData[index].audioClip.Length)], GameSettings.sfxVolume * sfxData[index].volume * volume);
+        audioSource.PlayOneShot(sfxData[index].audioClip[Random.Range(0, sfxData[index].audioClip.Length)], GameSettings.sfxVolume * volume);
     }
 
     [System.Serializable]
