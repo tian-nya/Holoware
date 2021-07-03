@@ -28,6 +28,7 @@ Some things to be aware of:
 ## License
 
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
 Adhere to hololive Derivative Works Guidelines: https://en.hololive.tv/terms
 
 © 2020 tian nya
